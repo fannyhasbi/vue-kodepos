@@ -15,8 +15,7 @@ self.addEventListener('install', function (event) {
                   'https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js',
                   'https://cdn.jsdelivr.net/npm/vue/dist/vue.js',
                   'https://unpkg.com/axios/dist/axios.min.js',
-                  'https://kodepos-2d475.firebaseio.com/kota_kab/k110.json?print=pretty',
-                  'https://upload.wikimedia.org/wikipedia/commons/f/f2/Lambang_Kota_Semarang.png'
+                  'https://kodepos-2d475.firebaseio.com/kota_kab/k110.json?print=pretty'
               ]);
           })
   );

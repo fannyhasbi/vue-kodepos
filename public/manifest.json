@@ -1,8 +1,8 @@
 {
   "name": "Kode Pos Brebes",
   "short_name": "Kode Pos Brebes",
-  "theme_color": "#ffc107",
-  "background_color": "#ffc107",
+  "theme_color": "#4cb5f5",
+  "background_color": "#4cb5f5",
   "display": "standalone",
   "orientation": "portrait",
   "scope": ".",
