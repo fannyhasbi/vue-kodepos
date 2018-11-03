@@ -1,0 +1,17 @@
+{
+    "name": "vue-kodepos",
+    "version": "1.0.0",
+    "description": "Indonesia Kodepos implemented with Vue.js",
+    "main": "index.js",
+    "scripts": {
+        "start": "http-server -c-1 -p 8888"
+    },
+    "keywords": [
+        "pwa"
+    ],
+    "author": "Fanny Hasbi",
+    "license": "UNLICENSED",
+    "devDependencies": {
+        "http-server": "^0.10.0"
+    }
+}
