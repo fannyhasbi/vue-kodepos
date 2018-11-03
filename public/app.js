@@ -5,7 +5,7 @@ new Vue({
     kodepos: [],
     search: '',
     awal: 0,
-    akhir: 10,
+    akhir: 15,
     halaman: 1,
     tampil: true
   },
@@ -14,13 +14,13 @@ new Vue({
   },
   methods: {
     next(){
-      this.awal   = this.awal += 10;
-      this.akhir  = this.akhir += 10;
+      this.awal   = this.awal += 15;
+      this.akhir  = this.akhir += 15;
       this.halaman= this.halaman += 1;
     },
     prev(){
-      this.awal   = this.awal -= 10;
-      this.akhir  = this.akhir -= 10;
+      this.awal   = this.awal -= 15;
+      this.akhir  = this.akhir -= 15;
       this.halaman= this.halaman -= 1
     },
     getData(){
