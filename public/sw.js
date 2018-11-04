@@ -6,6 +6,11 @@ self.addEventListener('install', function (event) {
               cache.addAll([
                   '/',
                   '/index.html',
+                  '/icon/32.ico',
+                  '/icon/96.ico',
+                  '/icon/128.ico',
+                  '/icon/192.ico',
+                  '/icon/256.ico',
                   '/app.js',
                   '/manifest.json',
                   '/logo-brebes.png',
