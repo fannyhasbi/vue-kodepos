@@ -5,22 +5,19 @@ self.addEventListener('install', function (event) {
           .then(function (cache) {
               cache.addAll([
                   '/',
-                  '/index.html',
-                  '/icon/32.ico',
-                  '/icon/96.ico',
-                  '/icon/128.ico',
-                  '/icon/192.ico',
-                  '/icon/256.ico',
                   '/app.js',
+                  '/index.html',
+                  '/about.html',
                   '/manifest.json',
-                  '/logo-brebes.png',
+                  'logo-brebes.png',
                   'https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css',
                   'https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js',
                   'https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js',
                   'https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js',
                   'https://cdn.jsdelivr.net/npm/vue/dist/vue.js',
                   'https://unpkg.com/axios/dist/axios.min.js',
-                  'https://kodepos-2d475.firebaseio.com/kota_kab/k106.json?print=pretty'
+                  'https://kodepos-2d475.firebaseio.com/kota_kab/k106.json?print=pretty',
+                  'https://upload.wikimedia.org/wikipedia/commons/f/f2/Lambang_Kota_Semarang.png'
               ]);
           })
   );
