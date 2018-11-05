@@ -10,6 +10,8 @@ self.addEventListener('install', function (event) {
                   '/about.html',
                   '/manifest.json',
                   'logo-brebes.png',
+                  '/male.jpg',
+                  '/female.jpg',
                   'https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css',
                   'https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js',
                   'https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js',

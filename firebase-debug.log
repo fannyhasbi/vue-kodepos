@@ -1,0 +1,17 @@
+[debug] [2018-11-05T16:52:52.886Z] ----------------------------------------------------------------------
+[debug] [2018-11-05T16:52:52.902Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Hasbi\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2018-11-05T16:52:52.903Z] CLI Version:   6.0.1
+[debug] [2018-11-05T16:52:52.903Z] Platform:      win32
+[debug] [2018-11-05T16:52:52.903Z] Node Version:  v10.13.0
+[debug] [2018-11-05T16:52:52.905Z] Time:          Mon Nov 05 2018 23:52:52 GMT+0700 (GMT+07:00)
+[debug] [2018-11-05T16:52:52.906Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-11-05T16:52:52.961Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-11-05T16:52:52.962Z] > authorizing via signed-in user
+[debug] [2018-11-05T16:52:52.963Z] [iam] checking project vue-kodepos for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2018-11-05T16:52:52.967Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-11-05T16:52:52.968Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2018-11-05T16:52:53.557Z] <<< HTTP RESPONSE 200
+[debug] [2018-11-05T16:52:53.594Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/vue-kodepos:testIamPermissions  
+
